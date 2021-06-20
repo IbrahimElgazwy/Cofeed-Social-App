@@ -1,0 +1,18 @@
+<div class="home">
+    <div class="filter">
+        <h4>Feeds</h4>
+        <ul class="">
+            <li class="list-item" [class.active-type] = "filterType === 'all'" (click)="filterFeeds('all')">All</li>
+            <li class="list-item" [class.active-type] = "filterType === 'following'" (click)="filterFeeds('following')">Following</li>
+            <li class="list-item" [class.active-type] = "filterType === 'newest'" (click)="filterFeeds('newest')">Newest</li>
+            <li class="list-item" [class.active-type] = "filterType === 'popular'" (click)="filterFeeds('popular')">Popular</li>
+        </ul>
+    </div>
+    <div class="feeds">
+        <app-feed 
+            *ngFor="let feed of filteredFeeds" 
+            (likeClick)="likeClick($event)"
+            [feed]="feed">
+        </app-feed>
+    </div>
+</div>

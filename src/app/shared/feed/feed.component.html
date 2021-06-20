@@ -1,0 +1,23 @@
+<div class="feed">
+    <div class="feed-content">
+        <img [src]="feed.imgUrl" alt="">
+    </div>
+    <div class="user">
+        <div class="user-details">
+            <img [src]="feed.userImg" alt="" class="user-img">
+            <div class="user__info">
+              <span class="user__name">{{feed.userName}}</span>
+            </div>
+        </div>
+        <div class="reactions">
+            <div class="likes" [class.liked]="feed.isLiked">
+                <i (click)="handleLike(feed)" class="fas fa-heart"></i>
+                <span>{{feed.likes}}</span>
+            </div>
+            <div class="comments">
+                <i class="fas fa-comment-dots"></i>
+                <span>{{feed.comments}}</span>
+            </div>
+        </div>
+    </div>
+</div>

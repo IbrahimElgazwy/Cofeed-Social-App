@@ -1,0 +1,50 @@
+<div class="right">
+    <div class="search">
+        <div class="input-group">
+            <i class="fas fa-search"></i>
+            <input type="text" class="input" placeholder="Search">
+        </div>
+        <div class="icon">
+            <i class="fas fa-bell icon--primary"></i>
+            <span class="notification--num">.</span>
+        </div>
+        <div class="icon icon__bg">
+            <i class="fas fa-cloud-upload-alt icon--secondary"></i>
+        </div>
+    </div>
+    
+    <div class="suggestions">
+        <div class="see-suggestions">
+            <h4>Suggestions For You</h4>
+            <button class="btn-inline">See All</button>
+        </div>
+        <app-suggestions *ngFor="let suggest of suggestions" [suggest]="suggest"></app-suggestions>
+    </div>
+
+    <div class="activity">
+        <h4>Latest Post Activity</h4>
+        <div class="activity-content">
+            <div>
+                <img src="../../../assets/images/Confetti-Doodles.svg" alt="">
+            </div>
+            <div class="action">
+                <h4>Minimalist <br> Staries</h4>
+                <div class="reactions">
+                    <div class="likes liked">
+                        <i class="fas fa-heart"></i>
+                        <span>27</span>
+                    </div>
+                    <div class="comments">
+                        <i class="fas fa-comment-dots"></i>
+                        <span>12</span>
+                    </div>
+                    <div class="comments">
+                        <i class="fas fa-comment-dots"></i>
+                        <span>8</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

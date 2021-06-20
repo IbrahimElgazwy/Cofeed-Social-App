@@ -1,0 +1,70 @@
+.card {
+    box-shadow: 0 0 20px 10px #f3f3f3;
+    overflow: hidden;
+    padding: 3rem 2rem;
+}
+
+.list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list__item {
+    margin: 3rem 2rem;
+    color: #A7B7E3;
+    font-size: 1.5rem;
+}
+
+.list__item i {
+    margin-right: 2rem;
+    font-size: 2rem;
+}
+
+.list__item span {
+    font-size: 1.5rem;
+}
+
+
+.brand {
+    margin-bottom: 1.5rem;
+}
+
+.brand__span {
+    display: inline-block;
+    transform: translateY(-15px);
+    margin-left: 15px;
+    color: #A975FF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.flex-horzontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.reactions {
+    color: #A4B6E2;
+
+    i {
+        margin-right: 0.5rem;
+    }
+
+    span {
+        font-size: 1.5rem;
+        margin-right: 1.5rem;
+        font-weight: bold;
+        display: inline-block;
+        transform: translateY(-3px);
+        -webkit-transform: translateY(-3px);
+        -moz-transform: translateY(-3px);
+        -ms-transform: translateY(-3px);
+        -o-transform: translateY(-3px);
+}
+}
+
+.liked {
+    color: #FF5775;
+}
+
+  

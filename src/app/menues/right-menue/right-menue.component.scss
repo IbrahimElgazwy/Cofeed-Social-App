@@ -1,0 +1,137 @@
+.right {
+    padding: 3rem;
+    overflow: hidden;
+
+    .suggestions {
+        border-bottom: 1px solid #ddd;
+
+        .see-suggestions {
+            display: flex;
+            justify-content: space-between;
+    
+            .btn-inline {
+                padding: 0 3rem;
+                border: none;
+                background: #F1F6FF;
+                cursor: pointer;
+                color: #A975FF;
+                font-weight: 600;
+                font-size: 1.4rem;
+                padding-right: 0;
+            }
+        }
+    }
+
+    .activity {
+        background: #F6FAFF;
+        padding: 3rem;
+        border-radius: 15px;
+        margin-top: 2rem;
+
+        h4 {
+            margin-top: 0;
+        }
+
+        .activity-content {
+            display: flex;
+            // flex-direction: column;
+            justify-content: space-between;
+            overflow: hidden;
+            
+            img {
+                width: 150px;
+                border-radius: 10px;
+            }
+            
+            .action {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                h4 {
+                    margin-left: 2rem;
+                }
+            }
+
+            .reactions {
+                display: flex;
+                margin: 0 2rem;
+                font-size: 0.5rem;
+
+                div {
+                   margin-right: 0.8rem; 
+                }
+            }
+        }
+    }
+}
+
+.search {
+    display: flex;
+}
+
+.input-group {
+    border: 1px solid #ddd;
+    border-radius: 40px;
+    display: flex;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    overflow: hidden;
+    width: 239px;
+
+    .input {
+        border: 0;
+        flex-grow: 1;
+        padding: 1.5rem 0.5rem;
+        outline: 0;
+        background: #F1F6FF;
+        font-size: 2rem;
+    }
+
+    i {
+        content: "\f002";
+        padding: 20px;
+        display: inline-block;
+        color: #B3C2E5;
+    }
+
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    margin-left: 1rem;
+}
+
+.icon__bg {
+    background: #59B9FF;
+}
+
+.icon--primary {
+    color: #A4B6E2;
+}
+
+.icon--secondary {
+    color: #fff;
+}
+
+.notification--num {
+    position: absolute;
+    font-size: 43px;
+    color: red;
+    top: -23px;
+    right: 11px;
+}
+
+::placeholder {
+    color: #B3C2E5;
+}
+
+
+

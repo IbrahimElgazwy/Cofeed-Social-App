@@ -1,0 +1,25 @@
+.user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 10rem;
+    margin-right: 2rem;
+
+    img {
+        border-radius: 50%;
+        width: 6rem;
+        height: 6rem;
+        padding: 4px;
+        border: 0.5px solid #A975FF;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .user__info {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-top: 1rem;
+        text-align: center;
+    }
+}
+

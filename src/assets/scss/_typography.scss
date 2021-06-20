@@ -1,0 +1,31 @@
+$body-color: #323c58;
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+  
+/* Typography */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: #2C3E73;
+    background: #F1F6FF;
+    margin: 0;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #A7B7E3;
+}
+

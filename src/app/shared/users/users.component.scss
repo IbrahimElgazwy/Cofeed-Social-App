@@ -1,0 +1,36 @@
+$title-font: "DM Sans", sans-serif;
+
+.user {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #323c58;
+
+    .user-img {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        margin-right: 2rem;
+        object-fit: cover;
+        object-position: center;
+    }
+       
+    .user__info {
+        font-size: 15px;
+        font-family: $title-font;
+    }
+    
+    .user__name {
+        font-size: 1.5rem;
+        font-weight: 600;
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    .user__email {
+        font-size: 1rem;
+        color: #CAD2ED;
+        display: block;
+    }
+}
+
